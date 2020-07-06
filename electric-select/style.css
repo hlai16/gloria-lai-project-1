@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6,
-.socialMedia {
+.social-media {
     color: #1d81cc;
 }
 
@@ -90,6 +90,13 @@ header li {
 header a{
     margin-right: 2rem;
     text-decoration: none;
+}
+
+header a:hover,
+header a:active,
+header a:focus,
+header a:visited {
+    text-decoration: underline overline;
 }
 
 header{
@@ -283,8 +290,15 @@ input {
     margin: 5% auto;
 }
 
-.foote-nav a {
+.footer-nav a {
     text-decoration: none;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active,
+.footer-nav a:focus,
+.footer-nav a:visited {
+    text-shadow: 2px 2px 5px hotpink;
 }
 
 footer {
